@@ -43,4 +43,12 @@ class Itabs_SalesRuleSearch_Adminhtml_SalesrulesearchController extends Mage_Adm
 
         $this->_redirect('*/promo_quote');
     }
+
+    /**
+     * @return bool
+     */
+    protected function _isAllowed()
+    {
+        return true;
+    }
 }
